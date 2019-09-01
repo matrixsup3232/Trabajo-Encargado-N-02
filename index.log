@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.8.17)  17 AUG 2019 16:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.8.17)  1 SEP 2019 00:52
 entering extended mode
-**"/media/pordefecto/PORDEFECTO/CICLO 7/BD II/INFORME DE SQL/index.tex"
-("/media/pordefecto/PORDEFECTO/CICLO 7/BD II/INFORME DE SQL/index.tex"
+**"/home/pordefecto/UPT/BD II/INFORME DE SQL/index.tex"
+("/home/pordefecto/UPT/BD II/INFORME DE SQL/index.tex"
 LaTeX2e <2018-12-01>
 (/home/pordefecto/.miktex/texmfs/install/tex/latex/elsarticle/elsarticle.cls
 Document Class: elsarticle 2019/02/25, 3.2: Elsevier Ltd
@@ -155,6 +155,14 @@ Package: inputenc 2018/08/11 v1.3c Input encoding file
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+(/home/pordefecto/.miktex/texmfs/install/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count105
+\float@exts=\toks22
+\float@box=\box34
+\@float@everytoks=\toks23
+\@floatcapt=\box35
+)
 No file index.aux.
 \openout1 = `index.aux'.
 
@@ -172,17 +180,17 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 (/home/pordefecto/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count105
+\scratchcounter=\count106
 \scratchdimen=\dimen116
-\scratchbox=\box34
-\nofMPsegments=\count106
-\nofMParguments=\count107
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count108
+\scratchbox=\box36
+\nofMPsegments=\count107
+\nofMParguments=\count108
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count109
 \MPscratchDim=\dimen117
-\MPnumerator=\count109
-\makeMPintoPDFobject=\count110
-\everyMPtoPDFconversion=\toks23
+\MPnumerator=\count110
+\makeMPintoPDFobject=\count111
+\everyMPtoPDFconversion=\toks25
 ) (/home/pordefecto/.miktex/texmfs/install/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 (/home/pordefecto/.miktex/texmfs/install/tex/generic/oberdiek/infwarerr.sty
@@ -231,30 +239,27 @@ G,.JBIG2,.JB2,.eps]
 )
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
-LaTeX Font Info:    Try loading font information for U+msa on input line 30.
 
+Overfull \hbox (3.77786pt too wide) in paragraph at lines 29--30
+[]\OT1/cmr/m/n/12 Building great software is not just about code. It is also on
+ the management
+ []
+
+
+Overfull \hbox (17.75133pt too wide) in paragraph at lines 29--30
+\OT1/cmr/m/n/12 and maintain the database. From the version that controls chang
+es to deployment
+ []
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 33.
 (/home/pordefecto/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 30.
+LaTeX Font Info:    Try loading font information for U+msb on input line 33.
 
 (/home/pordefecto/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 61.
-
-(/home/pordefecto/.miktex/texmfs/install/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
-
-Overfull \hbox (7.16267pt too wide) in paragraph at lines 49--67
-\OT1/cmr/m/n/12 de SQL: 1999. Una parte sustancial de SQL: Parte 2 de 1999: SQL
- / Foundation
- []
-
-
 Overfull \hbox (2.61108pt too wide) has occurred while \output is active
 [] 
  []
@@ -287,69 +292,65 @@ ig/pdftex.map): invalid entry for `rpplrre': unknown name `.2' ignored
 pdfTeX warning: pdflatex (file /home/pordefecto/.miktex/texmfs/data/pdftex/conf
 ig/pdftex.map): invalid entry for `rptmrre': unknown name `.2' ignored
 }]
-Overfull \hbox (2.5112pt too wide) in paragraph at lines 98--99
-\OT1/cmr/m/n/12 provenientes de diferentes fuentes. Se guardan los datos actual
-es y su historico,
+Overfull \hbox (1.24467pt too wide) in paragraph at lines 60--61
+[]\OT1/cmr/m/n/12 Segun (Bass, L., Weber, I., Zhu, L., (2015), DevOps A Softwa
+re Architect's
  []
 
 
-Overfull \hbox (13.11665pt too wide) in paragraph at lines 102--103
-[]\OT1/cmr/m/n/12 Representa una foto abstracta de la organizacion del negocio
- por diferentes
+Overfull \hbox (18.69577pt too wide) in paragraph at lines 62--63
+\OT1/cmr/m/n/12 Espa~na)" DevOps es una mezcla de patrones destinados a mejorar
+ la colaboracion
  []
 
-<./IMAGENES/fiorella1.jpg, id=10, 192.72pt x 96.36pt>
-File: ./IMAGENES/fiorella1.jpg Graphic file (type jpg)
-<use ./IMAGENES/fiorella1.jpg>
-Package pdftex.def Info: ./IMAGENES/fiorella1.jpg  used on input line 110.
-(pdftex.def)             Requested size: 426.79134pt x 213.3953pt.
+<./IMAGENES/devops1.jpg, id=9, 770.88pt x 256.70906pt>
+File: ./IMAGENES/devops1.jpg Graphic file (type jpg)
+<use ./IMAGENES/devops1.jpg>
+Package pdftex.def Info: ./IMAGENES/devops1.jpg  used on input line 66.
+(pdftex.def)             Requested size: 426.79134pt x 142.12267pt.
+<./IMAGENES/devops2.jpg, id=10, 1003.75pt x 501.875pt>
+File: ./IMAGENES/devops2.jpg Graphic file (type jpg)
+<use ./IMAGENES/devops2.jpg>
+Package pdftex.def Info: ./IMAGENES/devops2.jpg  used on input line 67.
+(pdftex.def)             Requested size: 426.79134pt x 213.39743pt.
+<./IMAGENES/devops3.jpg, id=11, 1003.75pt x 762.85pt>
+File: ./IMAGENES/devops3.jpg Graphic file (type jpg)
+<use ./IMAGENES/devops3.jpg>
+Package pdftex.def Info: ./IMAGENES/devops3.jpg  used on input line 68.
+(pdftex.def)             Requested size: 426.79134pt x 324.3641pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 110--111
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 66--69
  [] 
  []
 
-<./IMAGENES/leydi1.jpg, id=11, 797.98125pt x 401.5pt>
-File: ./IMAGENES/leydi1.jpg Graphic file (type jpg)
-<use ./IMAGENES/leydi1.jpg>
-Package pdftex.def Info: ./IMAGENES/leydi1.jpg  used on input line 117.
-(pdftex.def)             Requested size: 426.79134pt x 214.73604pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 117--118
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 66--69
  [] 
  []
 
 
-Overfull \hbox (12.3986pt too wide) in paragraph at lines 120--122
-[]\OT1/cmr/m/n/12 Estas son las principales ventajas que se pueden encontrar en
- la implantacion
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 66--69
+ [] 
  []
 
 [2]
-Overfull \hbox (19.09158pt too wide) in paragraph at lines 124--125
-\OT1/cmr/m/n/12 gracias a que permite aplicar tecnicas estadsticas de anali
-sis y modelizacion
- []
+Overfull \vbox (147.3842pt too high) has occurred while \output is active []
 
-
-Overfull \hbox (2.38065pt too wide) in paragraph at lines 127--128
-[]\OT1/cmr/m/n/12 Supone una optimizacion tecnologica y economica en entorno
-s de Centro
- []
 
 [3
 ! pdfTeX error (\pdfsetmatrix): Unrecognized format..
 <to be read again> 
                    \endgroup \set@typeset@protect 
-l.130 \item T
-             e permite realizar planes de una manera mucho más efectiva.
+l.71 
+     
 
  
 Here is how much of TeX's memory you used:
- 3611 strings out of 494857
- 49113 string characters out of 3177932
- 118176 words of memory out of 3000000
- 7218 multiletter control sequences out of 15000+200000
+ 3657 strings out of 494857
+ 49648 string characters out of 3177932
+ 119573 words of memory out of 3000000
+ 7262 multiletter control sequences out of 15000+200000
  9883 words of font info for 37 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 41i,5n,31p,598b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,5n,31p,702b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

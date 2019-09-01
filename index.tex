@@ -8,9 +8,11 @@
 \usepackage[utf8]{inputenc}
 \usepackage{url}
 \usepackage{natbib}
-
+\usepackage{float}
 \begin{document}
 	
+
+
 	\begin{frontmatter}
 
 		\title{\huge  DevOps En Base de Datos}
@@ -24,7 +26,7 @@
 		
 		\begin{abstract}
 			
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus pharetra euismod. Ut viverra lacus at nisl congue pellentesque. Etiam vel dolor lectus. Fusce gravida malesuada tellus vel consectetur. Fusce ut orci nibh. Sed tincidunt, neque nec imperdiet vulputate, mauris elit hendrerit massa, eget lacinia risus erat ullamcorper ligula. Nullam condimentum nunc nibh, a cursus felis condimentum sit amet. Sed eu quam commodo, rutrum enim eu, sodales libero. Cras rutrum scelerisque tincidunt. Cras ligula dolor, ullamcorper id bibendum at, auctor quis sem. Nunc vestibulum luctus lectus, eleifend cursus odio lacinia a. Morbi interdum fermentum turpis sit amet ullamcorper. Nunc elit leo, pulvinar faucibus aliquet ut, dapibus volutpat dolor. Vestibulum sit amet dui non arcu gravida facilisis in et magna. Curabitur blandit dolor non dolor pulvinar facilisis ut id ex. Pellentesque et lectus varius, tristique nibh faucibus, pharetra turpis.
+Building great software is not just about code. It is also on the management of multiple teams, schedules and frequently Changes, DevOps has become an effective way to help teams collaborate and accelerate the delivery cycle. One of the biggest advantages is development automation and repetitive testing. processes used by database development teams to deliver, manage and maintain the database. From the version that controls changes to deployment in different environments, and when ready, choose to deploy in production, continuous delivery helps teams reduce risk and increase both efficiency and reliability in the software launch process.
 
 
 		\end{abstract}
@@ -32,45 +34,53 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus pharetra eu
 
 	\section{Resumen}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus pharetra euismod. Ut viverra lacus at nisl congue pellentesque. Etiam vel dolor lectus. Fusce gravida malesuada tellus vel consectetur. Fusce ut orci nibh. Sed tincidunt, neque nec imperdiet vulputate, mauris elit hendrerit massa, eget lacinia risus erat ullamcorper ligula. Nullam condimentum nunc nibh, a cursus felis condimentum sit amet. Sed eu quam commodo, rutrum enim eu, sodales libero. Cras rutrum scelerisque tincidunt. Cras ligula dolor, ullamcorper id bibendum at, auctor quis sem. Nunc vestibulum luctus lectus, eleifend cursus odio lacinia a. Morbi interdum fermentum turpis sit amet ullamcorper. Nunc elit leo, pulvinar faucibus aliquet ut, dapibus volutpat dolor. Vestibulum sit amet dui non arcu gravida facilisis in et magna. Curabitur blandit dolor non dolor pulvinar facilisis ut id ex. Pellentesque et lectus varius, tristique nibh faucibus, pharetra turpis.
+Construir un gran software no solamente se trata del código. Es también
+sobre la gestión de múltiples equipos, plazos y con frecuencia
+Cambios , DevOps se ha convertido en una forma efectiva de ayudar a los equipos a colaborar y acelerar el ciclo de entrega.
+Una de las mayores ventajas es la automatización del desarrollo y las pruebas repetitivas.
+procesos que utilizan los equipos de desarrollo de bases de datos para entregar, administrar y mantener la base de datos. Desde la versión que controla los cambios hasta la implementación en diferentes entornos, y cuando esté listo, elegir desplegarse en producción, la entrega continua ayuda a los equipos a reducir
+arriesgar e incrementar tanto la eficiencia como la confiabilidad en el proceso de lanzamiento del software.
 
 
 \section{Introduccion}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus pharetra euismod. Ut viverra lacus at nisl congue pellentesque. Etiam vel dolor lectus. Fusce gravida malesuada tellus vel consectetur. Fusce ut orci nibh. Sed tincidunt, neque nec imperdiet vulputate, mauris elit hendrerit massa, eget lacinia risus erat ullamcorper ligula. Nullam condimentum nunc nibh, a cursus felis condimentum sit amet. Sed eu quam commodo, rutrum enim eu, sodales libero. Cras rutrum scelerisque tincidunt. Cras ligula dolor, ullamcorper id bibendum at, auctor quis sem. Nunc vestibulum luctus lectus, eleifend cursus odio lacinia a. Morbi interdum fermentum turpis sit amet ullamcorper. Nunc elit leo, pulvinar faucibus aliquet ut, dapibus volutpat dolor. Vestibulum sit amet dui non arcu gravida facilisis in et magna. Curabitur blandit dolor non dolor pulvinar facilisis ut id ex. Pellentesque et lectus varius, tristique nibh faucibus, pharetra turpis.
-\begin{itemize}
-		\item LOREM
-		\item IPSUM
-	\end{itemize}
+En DevOps para entornos de prueba de bases de datos, las organizaciones deben generar rápidamente clones del sistema para ofrecer datos que reflejen con precisión el entorno de producción, al tiempo que protegen la información corporativa sensible. Por otro lado, los cambios de la base de datos en la producción representan el abismo más amplio entre las técnicas de desarrollo de aplicaciones ágil y la capacidad de desplegarlas en infraestructuras de TI del mundo real.
+CI / CD no es un concepto nuevo y es realmente el punto central de cada implementación de DevOps. He allí que en este articulo nos ocupamos del modo puntual sobre los conceptos basicos de devops, como se desenvuelve en un entorno de base de datos y que herramientas pueden usarse.
 
 	
-
 \section{Marco Teorico}
 	
-\subsection{LOREM1}	
+\subsection{DEFINICIONES DE DEVOPS}	
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus pharetra euismod. Ut viverra lacus at nisl congue pellentesque. Etiam vel dolor lectus. Fusce gravida malesuada tellus vel consectetur. Fusce ut orci nibh. Sed tincidunt, neque nec imperdiet vulputate, mauris elit hendrerit massa, eget lacinia risus erat ullamcorper ligula. Nullam condimentum nunc nibh, a cursus felis condimentum sit amet. Sed eu quam commodo, rutrum enim eu, sodales libero. Cras rutrum scelerisque tincidunt. Cras ligula dolor, ullamcorper id bibendum at, auctor quis sem. Nunc vestibulum luctus lectus, eleifend cursus odio lacinia a. Morbi interdum fermentum turpis sit amet ullamcorper. Nunc elit leo, pulvinar faucibus aliquet ut, dapibus volutpat dolor. Vestibulum sit amet dui non arcu gravida facilisis in et magna. Curabitur blandit dolor non dolor pulvinar facilisis ut id ex. Pellentesque et lectus varius, tristique nibh faucibus, pharetra turpis.
+Según (Bass, L., Weber, I., Zhu, L., (2015), DevOps A Software Architect’s Perspective, (Edi.) Addison-Wesley Professional, Boston) “DevOps es un conjunto de prácticas destinadas a reducir el tiempo entre el compromiso de un cambio en un sistema y el cambio que se coloca en la producción normal, al tiempo que garantiza una alta calidad.”.
 
-
-\begin{figure}[htb]
+Según (Huttermann, M., (2012), Devops for Developers, (Edi.) Apress, España)” DevOps es una mezcla de patrones destinados a mejorar la colaboración entre desarrollo y operaciones. Direcciones DevOps compartidas Objetivos e incentivos, así como procesos y herramientas compartidos. Porque de los conflictos naturales entre los diferentes grupos, objetivos compartidos y Los incentivos no siempre son alcanzables. Sin embargo, deberían en menos estar alineados unos con otros.”.
+\begin{figure}[H]
 				\begin{center}
-					\includegraphics[width=15cm]{./IMAGENES/sql}
+					\includegraphics[width=12cm,height=7cm]{./IMAGENES/devops1}
 				\end{center}
+Maheta,H.(2018).What is DevOps and Why DevOps:.[Figura].Recuperado de 
+https://www.yudiz.com/welcome-devops-prevent-defects/
+
 			\end{figure}
 
-\subsection{LOREMIPSUM}	
-\begin{figure}[htb]
-				\begin{center}
-					\includegraphics[width=15cm]{./IMAGENES/sqldos}
-				\end{center}
-			\end{figure}
-Estas son las principales ventajas que se pueden encontrar en el lenguaje SQL:
+
+
+\subsection{¿Qué es la integración continua/distribución continua (CI/CD)?}	
+La CI/CD es un método para distribuir aplicaciones de forma frecuente a los clientes mediante el uso de la automatización en las etapas del desarrollo de las aplicaciones. Los principales conceptos que se atribuyen a la CI/CD son la integración continua, la distribución continua y la implementación continua.(Redhat, 2019) 
 \begin{itemize}
-
-\item x. Pellentesque et lectus varius, tristique nib
-\item x. Pellentesque et lectus varius, tristique nib
-\item x. Pellentesque et lectus varius, tristique nib
-\item tetur. Fusce ut orci nibh. Sed tincidunt, neque nec imperdiet vulputate, mauris elit hendrerit massa, eget lacinia risus erat ullamcorper ligula. Nullam condimentum nun
+\item Integración continua 
+\item Distribución continua
 \end{itemize}
+	\begin{figure}[H]
+			\begin{center}
+					\includegraphics[width=12cm,height=7cm]{./IMAGENES/devops2}
+					\includegraphics[width=12cm,height=7cm]{./IMAGENES/devops3}
+			\end{center}
+			Maheta,H.(2018).What is DevOps and Why DevOps:.[Figura].Recuperado de 
+https://www.yudiz.com/welcome-devops-prevent-defects/
+		\end{figure}
+
+
 
 \subsection{lorem ipsum}	
 
@@ -122,5 +132,7 @@ Praesent sit amet ultrices leo. Nulla semper lacus id metus congue egestas. Proi
 \citep{referencia03}  
 \citep{referencia04}  
 \citep{referencia05}  
+\citep{referencia06}  
+\citep{referencia07}  
 \end{document}
 
